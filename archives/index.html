@@ -338,7 +338,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date()getMinutes() + '.jpg';
+    var bannerUrl = "/medias/banner/" + new Date().getSeconds() + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -622,7 +622,7 @@
     
     <!-- 又拍云的位置 以div为一个部分 -->
     <div class="col s12 m4 l4" align=center> <a href="https://www.upyun.com/" target="_blank"> <img
-        src="../medias/icp.png" width="100%" /></a>
+        src="../medias/icp.png" width="5%" /></a>
 </div>
     <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
@@ -776,62 +776,7 @@
 </div>
 
 
-<!--  css 样式 -->
-<style>
-    .github-badge {
-        display:inline-block;
-        border-radius:4px;
-        text-shadow:none;
-        font-size:13px;
-        color:#fff;
-        line-height:15px;
-        background-color:#ABBAC3;
-        margin-bottom:5px;
-    }
-    .github-badge .badge-subject {
-        display:inline-block;
-        background-color:#4D4D4D;
-        padding:4px 4px 4px 6px;
-        border-top-left-radius:4px;
-        border-bottom-left-radius:4px;
-    }
-    .github-badge .badge-value {
-        display:inline-block;
-        padding:4px 6px 4px 4px;
-        border-top-right-radius:4px;
-        border-bottom-right-radius:4px;
-    }
-    .github-badge .bg-brightgreen {
-        background-color:#4DC820 !important;
-    }
-    .github-badge .bg-orange {
-        background-color:#FFA500 !important;
-    }
-    .github-badge .bg-yellow {
-        background-color:#D8B024 !important;
-    }
-    .github-badge .bg-blueviolet {
-        background-color:#8833D7 !important;
-    }
-    .github-badge .bg-pink {
-        background-color:#F26BAE !important;
-    }
-    .github-badge .bg-red {
-        background-color:#e05d44 !important;
-    }
-    .github-badge .bg-blue {
-        background-color:#007EC6 !important;
-    }
-    .github-badge .bg-lightgrey {
-        background-color:#9F9F9F !important;
-    }
-    .github-badge .bg-grey, .github-badge .bg-gray {
-        background-color:#555 !important;
-    }
-    .github-badge .bg-lightgrey, .github-badge .bg-lightgray {
-        background-color:#9f9f9f !important;
-    }
-</style>
+
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
