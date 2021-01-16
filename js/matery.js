@@ -167,6 +167,10 @@ $(function () {
             }
     });
 
+
+
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+
     // 初始化加载 tooltipped.
     $('.tooltipped').tooltip();
 });
