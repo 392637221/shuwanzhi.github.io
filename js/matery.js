@@ -154,8 +154,8 @@ $(function () {
 	},function(){
 		$(this).children('ul').stop(true,true).hide();
 		$('.nav-item.nav-show').removeClass('nav-show');
-	})
-	
+    })
+
     $('.m-nav-item>a').on('click',function(){
             if ($(this).next('ul').css('display') == "none") {
                 $('.m-nav-item').children('ul').slideUp(300);
@@ -167,6 +167,16 @@ $(function () {
             }
     });
 
+
+
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+
     // 初始化加载 tooltipped.
     $('.tooltipped').tooltip();
 });
+
+
+
+
+
+
