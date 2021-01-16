@@ -43,6 +43,13 @@
 <meta name="generator" content="Hexo 5.2.0"></head>
 
 
+<style>
+    #waifu{
+        left: auto !important;
+        right: 140px !important;
+    }
+    </style>
+
 <body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
@@ -1061,50 +1068,6 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
 </script>
 
 
-<div id="waifu-toggle">
-    <span>看板娘</span>
-</div>
-<div id="waifu" style="bottom: 0px;">
-    <div id="waifu-tips" class="waifu-tips-active">好久不见，日子过得好快呢……</div>
-    <canvas id="live2d" width="800" height="800"></canvas>
-    <div id="waifu-tool">
-        <span class="fa fa-lg fa-comment"></span>
-        <span class="fa fa-lg fa-paper-plane"></span>
-        <span class="fa fa-lg fa-user-circle"></span>
-        <span class="fa fa-lg fa-street-view"></span>
-        <span class="fa fa-lg fa-camera-retro"></span>
-        <span class="fa fa-lg fa-info-circle"></span>
-        <span class="fa fa-lg fa-times"></span>
-    </div>
-</div>
-<div id="waifu" style="bottom: 0px;">
-			<div id="waifu-tips" class="">拿小拳拳锤你胸口！</div>
-			<canvas id="live2d" width="800" height="800"></canvas>
-			<div id="waifu-tool">
-				<span class="fa fa-lg fa-comment"></span>
-				<span class="fa fa-lg fa-paper-plane"></span>
-				<span class="fa fa-lg fa-user-circle"></span>
-				<span class="fa fa-lg fa-street-view"></span>
-				<span class="fa fa-lg fa-camera-retro"></span>
-				<span class="fa fa-lg fa-info-circle"></span>
-				<span class="fa fa-lg fa-times"></span>
-			</div>
-        </div>
-        <div id="waifu-tool">
-            <span class="fa fa-lg fa-comment"></span>
-            <span class="fa fa-lg fa-paper-plane"></span>
-            <span class="fa fa-lg fa-user-circle"></span>
-            <span class="fa fa-lg fa-street-view"></span>
-            <span class="fa fa-lg fa-camera-retro"></span>
-            <span class="fa fa-lg fa-info-circle"></span>
-            <span class="fa fa-lg fa-times"></span>
-        </div>
-        <script type="text/javascript">
-            var OriginTitile=document.title,st;
-            document.addEventListener("visibilitychange",function(){
-                document.hidden?(document.title="ヽ(●-`Д´-)ノ你要玩捉迷藏嘛",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ好哦！",st=setTimeout(function(){document.title=OriginTitile},3e3))
-            })
-        </script>
 </body>
-
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 </html>
