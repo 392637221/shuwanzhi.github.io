@@ -155,16 +155,6 @@ $(function () {
 		$(this).children('ul').stop(true,true).hide();
 		$('.nav-item.nav-show').removeClass('nav-show');
     })
-    
-
-
-    连同文章页也变透明的
-	var full_page = document.getElementsByClassName("full_page");
-if (full_page.length != 0) {
-  full_page[0].style.background = "transparent";
-}
-
-
 
     $('.m-nav-item>a').on('click',function(){
             if ($(this).next('ul').css('display') == "none") {
